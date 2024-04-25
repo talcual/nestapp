@@ -16,7 +16,7 @@ import { HttpModule } from '@nestjs/axios';
       host: 'aws-0-us-west-1.pooler.supabase.com',
       port: 5432,
       username: 'postgres.jmitltbowzguodtezluk',
-      password: '@@eltc870122',
+      password: '',
       database: 'postgres',
       autoLoadModels: true,
       synchronize: true,
@@ -29,7 +29,7 @@ import { HttpModule } from '@nestjs/axios';
     ProductsModule,
     EventsModule,
     MongooseModule.forRoot(
-      'mongodb+srv://tdev:eltc870122@tdev.lgyl6o5.mongodb.net/?retryWrites=true&w=majority',
+      '',
     ),
     HttpModule,
   ],
